@@ -277,6 +277,8 @@ def request(query, params):
                 **google_info['params'],
                 'filter': '0',
                 'start': offset,
+                'udm': '14', # get only WEB results
+                's': 'web', # select WEB category
                 # 'vet': '12ahUKEwik3ZbIzfn7AhXMX_EDHbUDBh0QxK8CegQIARAC..i',
                 # 'ved': '2ahUKEwik3ZbIzfn7AhXMX_EDHbUDBh0Q_skCegQIARAG',
                 # 'cs' : 1,
